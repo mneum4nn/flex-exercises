@@ -18,7 +18,9 @@ a{
     color:#84adab;
     font-style: italic;
 }
-
+img{
+    display:flex;
+}
 
 .logo{
     width:50px;
@@ -33,3 +35,23 @@ a{
     border-radius: 25px;
 
 }
+.container{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding:30px;
+    gap:20px;
+}
+.text-box{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    background-color: #9f97c7;
+    border-radius:30px;
+    
+}
+.medium{
+    height:300px;
+    width:250px;
+}
+
