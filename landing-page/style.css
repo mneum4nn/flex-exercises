@@ -24,6 +24,18 @@ h2{
     color:#9f97c7;
     text-align:center;
 }
+button{
+    color:white; 
+    background-color:#84adab;
+    opacity:0.4;
+    display:flex;
+    border-radius:40px;
+    justify-content:space-around;
+    align-items:center;
+    padding: 12px 18px;
+    height:90px;
+    width:150px;
+}
 .text{
     margin:6px;
 
@@ -57,6 +69,12 @@ h2{
     justify-content: space-evenly;
     padding:30px;
     gap:20px;
+}
+.lilbox{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:30px;
+
 }
 .text-box{
     display:flex;
